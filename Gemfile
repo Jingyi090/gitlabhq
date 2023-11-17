@@ -136,7 +136,7 @@ gem 'net-ldap', '~> 0.17.1' # rubocop:todo Gemfile/MissingFeatureCategory
 # API
 gem 'grape', '~> 1.7.1', feature_category: :api
 gem 'grape-entity', '~> 0.10.0', feature_category: :api
-gem 'grape-swagger', '~> 1.6.1', group: [:development, :test], feature_category: :api
+gem 'grape-swagger', '~> 2.0.0', group: [:development, :test], feature_category: :api
 gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test], feature_category: :api
 gem 'grape-path-helpers', '~> 1.7.1', feature_category: :api
 gem 'rack-cors', '~> 2.0.1', require: 'rack/cors' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -420,7 +420,7 @@ group :development, :test do
   gem 'awesome_print', require: false # rubocop:todo Gemfile/MissingFeatureCategory
 
   gem 'database_cleaner-active_record', '~> 2.1.0', feature_category: :database
-  gem 'factory_bot_rails', '~> 6.2.0' # rubocop:todo Gemfile/MissingFeatureCategory
+  gem 'factory_bot_rails', '~> 6.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
   gem 'rspec-rails', '~> 6.0.3' # rubocop:todo Gemfile/MissingFeatureCategory
 
   # Prevent occasions where minitest is not bundled in packaged versions of ruby (see #3826)
