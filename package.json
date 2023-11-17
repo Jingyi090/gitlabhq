@@ -47,7 +47,7 @@
     "webpack-prod": "NODE_OPTIONS=\"${NODE_OPTIONS:=--max-old-space-size=5120}\" NODE_ENV=production webpack --config config/webpack.config.js"
   },
   "dependencies": {
-    "@apollo/client": "^3.5.10",
+    "@apollo/client": "^3.8.6",
     "@babel/core": "^7.18.5",
     "@babel/preset-env": "^7.18.2",
     "@cubejs-client/core": "^0.34.9",
