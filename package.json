@@ -197,7 +197,7 @@
     "style-loader": "^2.0.0",
     "swagger-ui-dist": "5.9.1",
     "thread-loader": "^3.0.4",
-    "three": "^0.143.0",
+    "three": "^0.158.0",
     "timeago.js": "^4.0.2",
     "tippy.js": "^6.3.7",
     "traverse": "^0.6.7",
