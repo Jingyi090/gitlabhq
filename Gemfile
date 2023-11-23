@@ -69,7 +69,7 @@ gem 'declarative_policy', '~> 1.1.0' # rubocop:todo Gemfile/MissingFeatureCatego
 gem 'devise', '~> 4.9.3', feature_category: :system_access
 gem 'devise-pbkdf2-encryptable', '~> 0.0.0', path: 'vendor/gems/devise-pbkdf2-encryptable' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'bcrypt', '~> 3.1', '>= 3.1.14' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'doorkeeper', '~> 5.6', '>= 5.6.6' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'doorkeeper', '~> 5.6', '>= 5.6.7' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'doorkeeper-openid_connect', '~> 1.8', '>= 1.8.7' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'rexml', '~> 3.2.6' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'ruby-saml', '~> 1.15.0' # rubocop:todo Gemfile/MissingFeatureCategory
