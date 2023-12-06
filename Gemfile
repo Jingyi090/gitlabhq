@@ -283,7 +283,7 @@ gem 'redis', '~> 4.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'connection_pool', '~> 2.4' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Redis session store
-gem 'redis-actionpack', '~> 5.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'redis-actionpack', '~> 5.4.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Discord integration
 gem 'discordrb-webhooks', '~> 3.4', require: false, feature_category: :integrations
