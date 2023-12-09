@@ -509,7 +509,7 @@ end
 
 gem 'octokit', '~> 6.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
-gem 'gitlab-mail_room', '~> 0.0.23', require: 'mail_room' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'gitlab-mail_room', '~> 0.0.24', require: 'mail_room' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'email_reply_trimmer', '~> 0.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'html2text' # rubocop:todo Gemfile/MissingFeatureCategory
