@@ -50,7 +50,7 @@ gem 'responders', '~> 3.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'sprockets', '~> 3.7.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
-gem 'view_component', '~> 3.7.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'view_component', '~> 3.9.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Supported DBs
 gem 'pg', '~> 1.5.4' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -393,7 +393,7 @@ group :development do
   gem 'solargraph', '~> 0.47.2', require: false # rubocop:todo Gemfile/MissingFeatureCategory
 
   gem 'letter_opener_web', '~> 2.0.0' # rubocop:todo Gemfile/MissingFeatureCategory
-  gem 'lookbook', '~> 2.0', '>= 2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
+  gem 'lookbook', '~> 2.0', '>= 2.0.2' # rubocop:todo Gemfile/MissingFeatureCategory
 
   # Better errors handler
   gem 'better_errors', '~> 2.10.1' # rubocop:todo Gemfile/MissingFeatureCategory
