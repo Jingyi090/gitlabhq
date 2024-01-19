@@ -73,13 +73,13 @@ gem 'doorkeeper', '~> 5.6', '>= 5.6.6' # rubocop:todo Gemfile/MissingFeatureCate
 gem 'doorkeeper-openid_connect', '~> 1.8', '>= 1.8.7' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'rexml', '~> 3.2.6' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'ruby-saml', '~> 1.15.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'omniauth', '~> 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'omniauth-auth0', '~> 3.1' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'omniauth-azure-activedirectory-v2', '~> 2.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'omniauth', '~> 2.1.1' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'omniauth-auth0', '~> 3.1', '>= 3.1.1' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'omniauth-azure-activedirectory-v2', '~> 2.0', '>= 2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-azure-oauth2', '~> 0.0.9', path: 'vendor/gems/omniauth-azure-oauth2' # See gem README.md # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-dingtalk-oauth2', '~> 1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-alicloud', '~> 3.0.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'omniauth-facebook', '~> 4.0.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'omniauth-facebook', '~> 5.0.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-github', '2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-gitlab', '~> 4.0.0', path: 'vendor/gems/omniauth-gitlab' # See vendor/gems/omniauth-gitlab/README.md # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-google-oauth2', '~> 1.1' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -88,7 +88,7 @@ gem 'omniauth-saml', '~> 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-shibboleth-redux', '~> 2.0', require: 'omniauth-shibboleth' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-twitter', '~> 1.4' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth_crowd', '~> 2.4.0', path: 'vendor/gems/omniauth_crowd' # See vendor/gems/omniauth_crowd/README.md # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'omniauth_openid_connect', '~> 0.6.1' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'omniauth_openid_connect', '~> 0.7.0' # rubocop:todo Gemfile/MissingFeatureCategory
 # Locked until Ruby 3.0 upgrade since upgrading will pull in an updated net-smtp gem.
 # See https://docs.gitlab.com/ee/development/emails.html#rationale.
 gem 'openid_connect', '= 1.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
