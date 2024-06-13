@@ -24,7 +24,7 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 # https://gitlab.com/gitlab-org/gitlab/-/issues/375713
 #
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
-gem 'rails', '~> 7.0.8' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'rails', '~> 7.0.8', '>= 7.0.8.3' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab' # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -104,7 +104,7 @@ gem 'timfel-krb5-auth', '~> 0.8', group: :kerberos # rubocop:todo Gemfile/Missin
 # Spam and anti-bot protection
 gem 'recaptcha', '~> 5.12', require: 'recaptcha/rails' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'akismet', '~> 3.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'invisible_captcha', '~> 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'invisible_captcha', '~> 2.2.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Two-factor authentication
 gem 'devise-two-factor', '~> 4.1.1' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -367,7 +367,7 @@ gem 'thrift', '>= 0.16.0' # rubocop:todo Gemfile/MissingFeatureCategory
 # I18n
 gem 'rails-i18n', '~> 7.0', feature_category: :internationalization
 gem 'gettext_i18n_rails', '~> 1.11.0', feature_category: :internationalization
-gem 'gettext_i18n_rails_js', '~> 2.0.0', feature_category: :internationalization
+gem 'gettext_i18n_rails_js', '~> 2.1.0', feature_category: :internationalization
 gem 'gettext', '~> 3.3', require: false, group: :development, feature_category: :internationalization
 
 gem 'batch-loader', '~> 2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -404,7 +404,7 @@ group :development do
 
   gem 'ruby-lsp', "~> 0.12.3", feature_category: :tooling
 
-  gem 'ruby-lsp-rails', "~> 0.2.7", feature_category: :tooling
+  gem 'ruby-lsp-rails', '~> 0.2.8', feature_category: :tooling
 
   gem 'ruby-lsp-rspec', "~> 0.1.5", feature_category: :tooling
 end
@@ -481,7 +481,7 @@ end
 group :test do
   gem 'fuubar', '~> 2.2.0' # rubocop:todo Gemfile/MissingFeatureCategory
   gem 'rspec-retry', '~> 0.6.2', feature_category: :tooling
-  gem 'rspec_profiling', '~> 0.0.6', feature_category: :tooling
+  gem 'rspec_profiling', '~> 0.0.7', feature_category: :tooling
   gem 'rspec-benchmark', '~> 0.6.0', feature_category: :tooling
   gem 'rspec-parameterized', '~> 1.0', require: false, feature_category: :tooling
 
