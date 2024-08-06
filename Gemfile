@@ -544,7 +544,7 @@ gem 'gitaly', '~> 16.5.0.pre.rc1' # rubocop:todo Gemfile/MissingFeatureCategory
 # KAS GRPC protocol definitions
 gem 'kas-grpc', '~> 0.3.0', feature_category: :deployment_management
 
-gem 'grpc', '~> 1.58.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'grpc', '~> 1.58.3' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'google-protobuf', '~> 3.25', '>= 3.25.1' # rubocop:todo Gemfile/MissingFeatureCategory
 
