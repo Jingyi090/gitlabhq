@@ -248,11 +248,11 @@ gem 'acts-as-taggable-on', '~> 10.0' # rubocop:todo Gemfile/MissingFeatureCatego
 
 # Background jobs
 gem 'sidekiq', '~> 6.5.10' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'sidekiq-cron', '~> 1.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'sidekiq-cron', '~> 1.9.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gitlab-sidekiq-fetcher', path: 'vendor/gems/sidekiq-reliable-fetch', require: 'sidekiq-reliable-fetch' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Cron Parser
-gem 'fugit', '~> 1.8.1' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'fugit', '~> 1.11.1' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # HTTP requests
 gem 'httparty', '~> 0.21.0' # rubocop:todo Gemfile/MissingFeatureCategory
