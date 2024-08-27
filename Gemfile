@@ -361,7 +361,7 @@ gem 'gitlab-http', path: 'gems/gitlab-http' # rubocop:todo Gemfile/MissingFeatur
 
 gem 'premailer-rails', '~> 1.10.3' # rubocop:todo Gemfile/MissingFeatureCategory
 
-gem 'gitlab-labkit', '~> 0.34.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'gitlab-labkit', '~> 0.35.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'thrift', '>= 0.16.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # I18n
@@ -539,10 +539,10 @@ gem 'ssh_data', '~> 1.3' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'spamcheck', '~> 1.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Gitaly GRPC protocol definitions
-gem 'gitaly', '~> 16.5.0.pre.rc1' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'gitaly', '~> 16.5.0.0.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # KAS GRPC protocol definitions
-gem 'kas-grpc', '~> 0.3.0', feature_category: :deployment_management
+gem 'kas-grpc', '~> 0.4.0', feature_category: :deployment_management
 
 gem 'grpc', '~> 1.58.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
