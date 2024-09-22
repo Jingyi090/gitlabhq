@@ -180,17 +180,17 @@ gem 'fog-aliyun', '~> 0.4' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gitlab-fog-azure-rm', '~> 1.8.0', require: 'fog/azurerm' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # for Google storage
-gem 'google-cloud-storage', '~> 1.44.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-core', '~> 0.10.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-compute_v1', '~> 0.57.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-container_v1', '~> 0.43.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-container_v1beta1', '~> 0.43.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-cloudbilling_v1', '~> 0.21.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-cloudresourcemanager_v1', '~> 0.31.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-iam_v1', '~> 0.36.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-serviceusage_v1', '~> 0.28.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-sqladmin_v1beta4', '~> 0.41.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-androidpublisher_v3', '~> 0.34.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-cloud-storage', '~> 1.48.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-core', '~> 0.11.3' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-compute_v1', '~> 0.87.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-container_v1', '~> 0.63.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-container_v1beta1', '~> 0.65.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-cloudbilling_v1', '~> 0.33.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-cloudresourcemanager_v1', '~> 0.36.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-iam_v1', '~> 0.52.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-serviceusage_v1', '~> 0.48.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-sqladmin_v1beta4', '~> 0.62.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-androidpublisher_v3', '~> 0.55.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Seed data
 gem 'seed-fu', '~> 2.3.7' # rubocop:todo Gemfile/MissingFeatureCategory
