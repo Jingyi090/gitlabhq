@@ -453,7 +453,7 @@ group :development, :test do
 
   gem 'sigdump', '~> 0.2.4', require: 'sigdump/setup' # rubocop:todo Gemfile/MissingFeatureCategory
 
-  gem 'pact', '~> 1.63' # rubocop:todo Gemfile/MissingFeatureCategory
+  gem 'pact', '~> 1.65', '>= 1.65.2' # rubocop:todo Gemfile/MissingFeatureCategory
 end
 
 group :development, :test, :danger do
