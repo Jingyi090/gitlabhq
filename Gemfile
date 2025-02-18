@@ -24,7 +24,7 @@ gem 'bundler-checksum', '~> 0.1.0', path: 'vendor/gems/bundler-checksum', requir
 # https://gitlab.com/gitlab-org/gitlab/-/issues/375713
 #
 # See https://docs.gitlab.com/ee/development/gemfile.html#upgrade-rails for guidelines when upgrading Rails
-gem 'rails', '~> 7.0.8' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'rails', '~> 7.2.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 gem 'activerecord-gitlab', path: 'gems/activerecord-gitlab' # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -91,7 +91,7 @@ gem 'omniauth_crowd', '~> 2.4.0', path: 'vendor/gems/omniauth_crowd' # See vendo
 gem 'omniauth_openid_connect', '~> 0.6.1' # rubocop:todo Gemfile/MissingFeatureCategory
 # Locked until Ruby 3.0 upgrade since upgrading will pull in an updated net-smtp gem.
 # See https://docs.gitlab.com/ee/development/emails.html#rationale.
-gem 'openid_connect', '= 1.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'openid_connect', '= 2.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-salesforce', '~> 1.0.5', path: 'vendor/gems/omniauth-salesforce' # See gem README.md # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'omniauth-atlassian-oauth2', '~> 0.2.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'rack-oauth2', '~> 1.21.3' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -134,7 +134,7 @@ gem 'gitlab_omniauth-ldap', '~> 2.2.0', require: 'omniauth-ldap' # rubocop:todo 
 gem 'net-ldap', '~> 0.17.1' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # API
-gem 'grape', '~> 1.7.1', feature_category: :api
+gem 'grape', '~> 2.1.0', feature_category: :api
 gem 'grape-entity', '~> 0.10.0', feature_category: :api
 gem 'grape-swagger', '~> 1.6.1', group: [:development, :test], feature_category: :api
 gem 'grape-swagger-entity', '~> 0.5.1', group: [:development, :test], feature_category: :api
@@ -144,7 +144,7 @@ gem 'rack-cors', '~> 2.0.1', require: 'rack/cors' # rubocop:todo Gemfile/Missing
 # GraphQL API
 gem 'graphql', '~> 2.0.27', feature_category: :api
 gem 'graphql-docs', '~> 4.0.0', group: [:development, :test], feature_category: :api
-gem 'graphiql-rails', '~> 1.8.0', feature_category: :api
+gem 'graphiql-rails', '~> 1.10.0', feature_category: :api
 gem 'apollo_upload_server', '~> 2.1.5', feature_category: :api
 gem 'graphlient', '~> 0.5.0', feature_category: :importers # Used by BulkImport feature (group::import)
 
@@ -231,7 +231,7 @@ gem 'diffy', '~> 3.4' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'diff_match_patch', '~> 0.1.0', path: 'vendor/gems/diff_match_patch', feature_category: :team_planning
 
 # Application server
-gem 'rack', '~> 2.2.8' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'rack', '~> 2.2.11' # rubocop:todo Gemfile/MissingFeatureCategory
 # https://github.com/zombocom/rack-timeout/blob/master/README.md#rails-apps-manually
 gem 'rack-timeout', '~> 0.6.3', require: 'rack/timeout/base' # rubocop:todo Gemfile/MissingFeatureCategory
 
@@ -404,7 +404,7 @@ group :development do
 
   gem 'ruby-lsp', "~> 0.12.3", feature_category: :tooling
 
-  gem 'ruby-lsp-rails', "~> 0.2.7", feature_category: :tooling
+  gem 'ruby-lsp-rails', '~> 0.2.8', feature_category: :tooling
 
   gem 'ruby-lsp-rspec', "~> 0.1.5", feature_category: :tooling
 end
