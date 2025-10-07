@@ -168,7 +168,7 @@ gem 'fog-aws', '~> 3.18' # rubocop:todo Gemfile/MissingFeatureCategory
 # Locked until fog-google resolves https://github.com/fog/fog-google/issues/421.
 # Also see config/initializers/fog_core_patch.rb.
 gem 'fog-core', '= 2.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'fog-google', '~> 1.19', require: 'fog/google' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'fog-google', '~> 1.20', '>= 1.20.0', require: 'fog/google' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'fog-local', '~> 0.8' # rubocop:todo Gemfile/MissingFeatureCategory
 # NOTE:
 # the fog-aliyun gem since v0.4 pulls in aliyun-sdk transitively, which monkey-patches
@@ -180,17 +180,17 @@ gem 'fog-aliyun', '~> 0.4' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gitlab-fog-azure-rm', '~> 1.8.0', require: 'fog/azurerm' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # for Google storage
-gem 'google-cloud-storage', '~> 1.44.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-core', '~> 0.10.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-compute_v1', '~> 0.57.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-container_v1', '~> 0.43.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-container_v1beta1', '~> 0.43.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-cloudbilling_v1', '~> 0.21.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-cloudresourcemanager_v1', '~> 0.31.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-iam_v1', '~> 0.36.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-serviceusage_v1', '~> 0.28.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-sqladmin_v1beta4', '~> 0.41.0' # rubocop:todo Gemfile/MissingFeatureCategory
-gem 'google-apis-androidpublisher_v3', '~> 0.34.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-cloud-storage', '~> 1.45.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-core', '~> 0.15.1' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-compute_v1', '~> 0.58.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-container_v1', '~> 0.44.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-container_v1beta1', '~> 0.44.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-cloudbilling_v1', '~> 0.22.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-cloudresourcemanager_v1', '~> 0.32.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-iam_v1', '~> 0.37.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-serviceusage_v1', '~> 0.29.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-sqladmin_v1beta4', '~> 0.42.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'google-apis-androidpublisher_v3', '~> 0.35.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Seed data
 gem 'seed-fu', '~> 2.3.7' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -389,8 +389,8 @@ gem 'warning', '~> 1.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 group :development do
   gem 'lefthook', '~> 1.5.2', require: false, feature_category: :tooling
-  gem 'rubocop', feature_category: :tooling
-  gem 'solargraph', '~> 0.47.2', require: false # rubocop:todo Gemfile/MissingFeatureCategory
+  gem 'rubocop', '>= 1.66.0', feature_category: :tooling
+  gem 'solargraph', '~> 0.48.0', require: false # rubocop:todo Gemfile/MissingFeatureCategory
 
   gem 'letter_opener_web', '~> 2.0.0' # rubocop:todo Gemfile/MissingFeatureCategory
   gem 'lookbook', '~> 2.0', '>= 2.0.1' # rubocop:todo Gemfile/MissingFeatureCategory
@@ -429,9 +429,9 @@ group :development, :test do
   gem 'spring', '~> 4.1.0' # rubocop:todo Gemfile/MissingFeatureCategory
   gem 'spring-commands-rspec', '~> 1.0.4' # rubocop:todo Gemfile/MissingFeatureCategory
 
-  gem 'gitlab-styles', '~> 11.0.0', require: false # rubocop:todo Gemfile/MissingFeatureCategory
+  gem 'gitlab-styles', '~> 13.0.0', require: false # rubocop:todo Gemfile/MissingFeatureCategory
 
-  gem 'haml_lint', '~> 0.40.0', require: false # rubocop:todo Gemfile/MissingFeatureCategory
+  gem 'haml_lint', '~> 0.41.0', require: false # rubocop:todo Gemfile/MissingFeatureCategory
   gem 'bundler-audit', '~> 0.9.1', require: false # rubocop:todo Gemfile/MissingFeatureCategory
 
   # Benchmarking & profiling
