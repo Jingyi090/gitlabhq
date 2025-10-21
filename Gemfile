@@ -344,7 +344,7 @@ gem 'base32', '~> 0.3.0' # rubocop:todo Gemfile/MissingFeatureCategory
 gem 'gitlab-license', '~> 2.3' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Protect against bruteforcing
-gem 'rack-attack', '~> 6.7.0' # rubocop:todo Gemfile/MissingFeatureCategory
+gem 'rack-attack', '~> 6.8.0' # rubocop:todo Gemfile/MissingFeatureCategory
 
 # Sentry integration
 gem 'sentry-raven', '~> 3.1' # rubocop:todo Gemfile/MissingFeatureCategory
